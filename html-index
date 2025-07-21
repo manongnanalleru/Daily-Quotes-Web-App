@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Quote</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="quote-box">
+        <h1>{{ quote }}</h1>
+        <form method="post">
+            <button type="submit">Get New Quote</button>
+        </form>
+    </div>
+</body>
+</html>
+
